@@ -73,3 +73,5 @@ elif menu == "Prediksi Student Performance":
     if st.button("Prediksi Performance"):
         pred = performance_model.predict(input_data)[0]
         st.success(f"📈 Prediksi Student Performance Score: **{round(pred, 2)}**")
+
+
